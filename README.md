@@ -1,1 +1,66 @@
-# mon-site
+<!DOCTYPE html>
+</html>
+   <head>
+     <title>portfolio de fallou</title>
+     <style>
+        body {
+          margin: 0;
+          font-family: Arial;
+          background-color: #1a1A2e;
+          color: white;
+        }
+        header {
+          background-color: #16213e;
+          text-lign: center;
+          padding: 50px;
+        }
+        h1 {
+          font-size: 60px;
+          color: #00d4ff;
+        }
+        .section {
+          padding: 40px;
+          text-align: center;
+        }
+        .competences {
+          background-color: #16213e;
+        }
+        .bouton {
+          background-color: #00d4ff;
+          color: black;
+          padding: 15px 30px;
+          border: none;
+          font-size: 18px;
+          cursor: pointer;
+          border-radius: 10px;
+        }
+      </style>
+    </head>
+    <body>
+      <header>
+        <h1>fallou ndour</h1>
+        <p>developpeur web en formation</p>
+      </header>
+
+      <div class="section">
+        <h2>À propos de moi</h2>
+        <p>je suis passionné par le code j'apprends python, HTML, CSS et javascript.</p>
+      </div>
+
+      <div class="section competences">
+        <h2>mes competences</h2>
+        <p>python</p>
+        <p>HTML & CSS</p>
+        <p>javascript</p>
+      </div>
+      
+      <div class="section">
+        <h2>me contacter</h2>
+        <bouton class="bouton" onclick="alert('merci de me contacter !')">
+          Envoyer un message
+        </bouton>
+      </div>
+    </body>
+  </html>
+      
+
